@@ -497,9 +497,11 @@ main {
         display: block;
     }
     .logo--div > ul > li {
-        margin: 0 15px;
+        width: fit-content;
+        margin: 0 auto;
         padding: 10px 0;
         cursor: pointer;
+        border-bottom: 2px solid black;
     }
     .logo--div > ul > li:hover {
         border-bottom: 2px solid white;
