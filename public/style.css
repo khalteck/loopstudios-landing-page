@@ -342,6 +342,7 @@ main {
         margin-bottom: 50px;
     }
     .text--box {
+        width: 100%;
         background-color: white;
         padding: 0px;
         position: relative;
@@ -391,6 +392,12 @@ main {
         padding: 9px 40px;
         border: 2px solid hsl(0, 0%, 55%);
         margin: 20px auto 0;
+        color: black;
+    }
+    .mob--btn:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
     }
     .heading--div > button {
         font-family: 'Alata', sans-serif;
