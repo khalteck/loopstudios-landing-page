@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
 body {
     font-size: 15px;
 }
@@ -19,13 +16,7 @@ body {
     z-index: 999;
 }
 .mobile--header {
-    width: 100%;
-    padding: 50px 130px;
     display: none;
-    color: white;
-    font-family: 'Alata', sans-serif;
-    position: absolute;
-    z-index: 999;
 }
 .menu--close {
     cursor: pointer;
@@ -219,19 +210,13 @@ main {
 .copy--div > p {
     color: hsl(0, 0%, 55%);
 }
-
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE SITE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE SITE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE SITE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 @media (max-width: 1025px) {
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-    }
-    html {
-        scroll-behavior: smooth;
     }
     body {
         font-size: 15px;
@@ -241,13 +226,7 @@ main {
         color: white;
     }
     .desktop--header {
-        width: 100%;
-        padding: 50px 130px;
         display: none;
-        color: white;
-        font-family: 'Alata', sans-serif;
-        position: absolute;
-        z-index: 999;
     }
     .mobile--header {
         width: 100%;
